@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "hello-bluestream",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/yszk0123-sandbox/hello-bluestream.git",
+  "author": "Yuji Suzuki <y0suzuki0123@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "dependencies": {
+    "bluestream": "^10.3.2",
+    "chalk": "^2.4.1"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "prettier": "^1.15.2",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.1.6"
+  }
+}
